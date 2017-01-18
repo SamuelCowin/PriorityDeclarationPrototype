@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD1610F81E200075008D8EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1610F71E200075008D8EEA /* AppDelegate.swift */; };
+		AD1610FA1E200075008D8EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1610F91E200075008D8EEA /* ViewController.swift */; };
+		AD1610FD1E200075008D8EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1610FB1E200075008D8EEA /* Main.storyboard */; };
+		AD1610FF1E200075008D8EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD1610FE1E200075008D8EEA /* Assets.xcassets */; };
+		AD1611021E200075008D8EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD1611001E200075008D8EEA /* LaunchScreen.storyboard */; };
+		AD16110D1E200075008D8EEA /* PriorityDeclarationPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16110C1E200075008D8EEA /* PriorityDeclarationPrototypeTests.swift */; };
+		AD39644B1E286F1700C3EF76 /* CarTimePriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39644A1E286F1700C3EF76 /* CarTimePriorityViewController.swift */; };
+		AD39644D1E2877B300C3EF76 /* RoadDayTimePriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39644C1E2877B300C3EF76 /* RoadDayTimePriorityViewController.swift */; };
+		AD3964511E2883DB00C3EF76 /* RoadNumberofCarsPriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3964501E2883DB00C3EF76 /* RoadNumberofCarsPriorityViewController.swift */; };
+		AD3964531E28893700C3EF76 /* PathDayTimePriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3964521E28893700C3EF76 /* PathDayTimePriorityViewController.swift */; };
+		ADF18D701E296A17003FE1D5 /* CarTimePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D6F1E296A17003FE1D5 /* CarTimePriority.swift */; };
+		ADF18D721E296D17003FE1D5 /* PathDayTimePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D711E296D17003FE1D5 /* PathDayTimePriority.swift */; };
+		ADF18D741E296E23003FE1D5 /* RoadDayTimePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D731E296E23003FE1D5 /* RoadDayTimePriority.swift */; };
+		ADF18D761E296EE6003FE1D5 /* RoadNumberCarsPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D751E296EE6003FE1D5 /* RoadNumberCarsPriority.swift */; };
+		ADF18D781E297197003FE1D5 /* CarTimePriorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D771E297197003FE1D5 /* CarTimePriorityTableViewCell.swift */; };
+		ADF18D7A1E29CEC9003FE1D5 /* CarTimePriorityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D791E29CEC9003FE1D5 /* CarTimePriorityTableViewController.swift */; };
+		ADF18D811E2A8883003FE1D5 /* PathDayTimePriorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D801E2A8883003FE1D5 /* PathDayTimePriorityTableViewCell.swift */; };
+		ADF18D831E2A88A6003FE1D5 /* PathDayTimePriorityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D821E2A88A6003FE1D5 /* PathDayTimePriorityTableViewController.swift */; };
+		ADF18D851E2AB680003FE1D5 /* RoadDayTimePriorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D841E2AB680003FE1D5 /* RoadDayTimePriorityTableViewCell.swift */; };
+		ADF18D871E2AB698003FE1D5 /* RoadDayTimePriorityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D861E2AB698003FE1D5 /* RoadDayTimePriorityTableViewController.swift */; };
+		ADF18D891E2AFF84003FE1D5 /* RoadNumberofCarsPriorityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D881E2AFF84003FE1D5 /* RoadNumberofCarsPriorityTableViewCell.swift */; };
+		ADF18D8B1E2AFF9E003FE1D5 /* RoadNumberofCarsPriorityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF18D8A1E2AFF9E003FE1D5 /* RoadNumberofCarsPriorityTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1611091E200075008D8EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD1610EC1E200075008D8EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1610F31E200075008D8EEA;
+			remoteInfo = PriorityDeclarationPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD1610F41E200075008D8EEA /* PriorityDeclarationPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriorityDeclarationPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD1610F71E200075008D8EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD1610F91E200075008D8EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1610FC1E200075008D8EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD1610FE1E200075008D8EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD1611011E200075008D8EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD1611031E200075008D8EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1611081E200075008D8EEA /* PriorityDeclarationPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriorityDeclarationPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD16110C1E200075008D8EEA /* PriorityDeclarationPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityDeclarationPrototypeTests.swift; sourceTree = "<group>"; };
+		AD16110E1E200075008D8EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD39644A1E286F1700C3EF76 /* CarTimePriorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarTimePriorityViewController.swift; path = ../CarTimePriorityViewController.swift; sourceTree = "<group>"; };
+		AD39644C1E2877B300C3EF76 /* RoadDayTimePriorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadDayTimePriorityViewController.swift; sourceTree = "<group>"; };
+		AD3964501E2883DB00C3EF76 /* RoadNumberofCarsPriorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoadNumberofCarsPriorityViewController.swift; path = ../RoadNumberofCarsPriorityViewController.swift; sourceTree = "<group>"; };
+		AD3964521E28893700C3EF76 /* PathDayTimePriorityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDayTimePriorityViewController.swift; sourceTree = "<group>"; };
+		ADF18D6F1E296A17003FE1D5 /* CarTimePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTimePriority.swift; sourceTree = "<group>"; };
+		ADF18D711E296D17003FE1D5 /* PathDayTimePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDayTimePriority.swift; sourceTree = "<group>"; };
+		ADF18D731E296E23003FE1D5 /* RoadDayTimePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadDayTimePriority.swift; sourceTree = "<group>"; };
+		ADF18D751E296EE6003FE1D5 /* RoadNumberCarsPriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadNumberCarsPriority.swift; sourceTree = "<group>"; };
+		ADF18D771E297197003FE1D5 /* CarTimePriorityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTimePriorityTableViewCell.swift; sourceTree = "<group>"; };
+		ADF18D791E29CEC9003FE1D5 /* CarTimePriorityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTimePriorityTableViewController.swift; sourceTree = "<group>"; };
+		ADF18D801E2A8883003FE1D5 /* PathDayTimePriorityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDayTimePriorityTableViewCell.swift; sourceTree = "<group>"; };
+		ADF18D821E2A88A6003FE1D5 /* PathDayTimePriorityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathDayTimePriorityTableViewController.swift; sourceTree = "<group>"; };
+		ADF18D841E2AB680003FE1D5 /* RoadDayTimePriorityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadDayTimePriorityTableViewCell.swift; sourceTree = "<group>"; };
+		ADF18D861E2AB698003FE1D5 /* RoadDayTimePriorityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadDayTimePriorityTableViewController.swift; sourceTree = "<group>"; };
+		ADF18D881E2AFF84003FE1D5 /* RoadNumberofCarsPriorityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadNumberofCarsPriorityTableViewCell.swift; sourceTree = "<group>"; };
+		ADF18D8A1E2AFF9E003FE1D5 /* RoadNumberofCarsPriorityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadNumberofCarsPriorityTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD1610F11E200075008D8EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1611051E200075008D8EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD1610EB1E200075008D8EEA = {
+			isa = PBXGroup;
+			children = (
+				AD1610F61E200075008D8EEA /* PriorityDeclarationPrototype */,
+				AD16110B1E200075008D8EEA /* PriorityDeclarationPrototypeTests */,
+				AD1610F51E200075008D8EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD1610F51E200075008D8EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD1610F41E200075008D8EEA /* PriorityDeclarationPrototype.app */,
+				AD1611081E200075008D8EEA /* PriorityDeclarationPrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD1610F61E200075008D8EEA /* PriorityDeclarationPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				ADF18D7C1E2A8783003FE1D5 /* Default */,
+				ADF18D7B1E2A8739003FE1D5 /* CarTimePriority */,
+				ADF18D7D1E2A87A3003FE1D5 /* PathDayTimePriority */,
+				ADF18D7E1E2A87B3003FE1D5 /* RoadDayTimePriority */,
+				ADF18D7F1E2A87BF003FE1D5 /* RoadNumberofCarsPriority */,
+				AD1610FB1E200075008D8EEA /* Main.storyboard */,
+				AD1610FE1E200075008D8EEA /* Assets.xcassets */,
+				AD1611001E200075008D8EEA /* LaunchScreen.storyboard */,
+				AD1611031E200075008D8EEA /* Info.plist */,
+			);
+			path = PriorityDeclarationPrototype;
+			sourceTree = "<group>";
+		};
+		AD16110B1E200075008D8EEA /* PriorityDeclarationPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD16110C1E200075008D8EEA /* PriorityDeclarationPrototypeTests.swift */,
+				AD16110E1E200075008D8EEA /* Info.plist */,
+			);
+			path = PriorityDeclarationPrototypeTests;
+			sourceTree = "<group>";
+		};
+		ADF18D7B1E2A8739003FE1D5 /* CarTimePriority */ = {
+			isa = PBXGroup;
+			children = (
+				AD39644A1E286F1700C3EF76 /* CarTimePriorityViewController.swift */,
+				ADF18D6F1E296A17003FE1D5 /* CarTimePriority.swift */,
+				ADF18D771E297197003FE1D5 /* CarTimePriorityTableViewCell.swift */,
+				ADF18D791E29CEC9003FE1D5 /* CarTimePriorityTableViewController.swift */,
+			);
+			name = CarTimePriority;
+			sourceTree = "<group>";
+		};
+		ADF18D7C1E2A8783003FE1D5 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				AD1610F71E200075008D8EEA /* AppDelegate.swift */,
+				AD1610F91E200075008D8EEA /* ViewController.swift */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		ADF18D7D1E2A87A3003FE1D5 /* PathDayTimePriority */ = {
+			isa = PBXGroup;
+			children = (
+				AD3964521E28893700C3EF76 /* PathDayTimePriorityViewController.swift */,
+				ADF18D711E296D17003FE1D5 /* PathDayTimePriority.swift */,
+				ADF18D801E2A8883003FE1D5 /* PathDayTimePriorityTableViewCell.swift */,
+				ADF18D821E2A88A6003FE1D5 /* PathDayTimePriorityTableViewController.swift */,
+			);
+			name = PathDayTimePriority;
+			sourceTree = "<group>";
+		};
+		ADF18D7E1E2A87B3003FE1D5 /* RoadDayTimePriority */ = {
+			isa = PBXGroup;
+			children = (
+				AD39644C1E2877B300C3EF76 /* RoadDayTimePriorityViewController.swift */,
+				ADF18D731E296E23003FE1D5 /* RoadDayTimePriority.swift */,
+				ADF18D841E2AB680003FE1D5 /* RoadDayTimePriorityTableViewCell.swift */,
+				ADF18D861E2AB698003FE1D5 /* RoadDayTimePriorityTableViewController.swift */,
+			);
+			name = RoadDayTimePriority;
+			sourceTree = "<group>";
+		};
+		ADF18D7F1E2A87BF003FE1D5 /* RoadNumberofCarsPriority */ = {
+			isa = PBXGroup;
+			children = (
+				AD3964501E2883DB00C3EF76 /* RoadNumberofCarsPriorityViewController.swift */,
+				ADF18D751E296EE6003FE1D5 /* RoadNumberCarsPriority.swift */,
+				ADF18D881E2AFF84003FE1D5 /* RoadNumberofCarsPriorityTableViewCell.swift */,
+				ADF18D8A1E2AFF9E003FE1D5 /* RoadNumberofCarsPriorityTableViewController.swift */,
+			);
+			name = RoadNumberofCarsPriority;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD1610F31E200075008D8EEA /* PriorityDeclarationPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1611111E200075008D8EEA /* Build configuration list for PBXNativeTarget "PriorityDeclarationPrototype" */;
+			buildPhases = (
+				AD1610F01E200075008D8EEA /* Sources */,
+				AD1610F11E200075008D8EEA /* Frameworks */,
+				AD1610F21E200075008D8EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriorityDeclarationPrototype;
+			productName = PriorityDeclarationPrototype;
+			productReference = AD1610F41E200075008D8EEA /* PriorityDeclarationPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD1611071E200075008D8EEA /* PriorityDeclarationPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD1611141E200075008D8EEA /* Build configuration list for PBXNativeTarget "PriorityDeclarationPrototypeTests" */;
+			buildPhases = (
+				AD1611041E200075008D8EEA /* Sources */,
+				AD1611051E200075008D8EEA /* Frameworks */,
+				AD1611061E200075008D8EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD16110A1E200075008D8EEA /* PBXTargetDependency */,
+			);
+			name = PriorityDeclarationPrototypeTests;
+			productName = PriorityDeclarationPrototypeTests;
+			productReference = AD1611081E200075008D8EEA /* PriorityDeclarationPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD1610EC1E200075008D8EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Shepard;
+				TargetAttributes = {
+					AD1610F31E200075008D8EEA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H4EB9PK9EU;
+						ProvisioningStyle = Automatic;
+					};
+					AD1611071E200075008D8EEA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H4EB9PK9EU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD1610F31E200075008D8EEA;
+					};
+				};
+			};
+			buildConfigurationList = AD1610EF1E200075008D8EEA /* Build configuration list for PBXProject "PriorityDeclarationPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD1610EB1E200075008D8EEA;
+			productRefGroup = AD1610F51E200075008D8EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1610F31E200075008D8EEA /* PriorityDeclarationPrototype */,
+				AD1611071E200075008D8EEA /* PriorityDeclarationPrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD1610F21E200075008D8EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1611021E200075008D8EEA /* LaunchScreen.storyboard in Resources */,
+				AD1610FF1E200075008D8EEA /* Assets.xcassets in Resources */,
+				AD1610FD1E200075008D8EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1611061E200075008D8EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD1610F01E200075008D8EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF18D831E2A88A6003FE1D5 /* PathDayTimePriorityTableViewController.swift in Sources */,
+				ADF18D721E296D17003FE1D5 /* PathDayTimePriority.swift in Sources */,
+				ADF18D8B1E2AFF9E003FE1D5 /* RoadNumberofCarsPriorityTableViewController.swift in Sources */,
+				ADF18D7A1E29CEC9003FE1D5 /* CarTimePriorityTableViewController.swift in Sources */,
+				ADF18D871E2AB698003FE1D5 /* RoadDayTimePriorityTableViewController.swift in Sources */,
+				AD39644B1E286F1700C3EF76 /* CarTimePriorityViewController.swift in Sources */,
+				AD3964511E2883DB00C3EF76 /* RoadNumberofCarsPriorityViewController.swift in Sources */,
+				AD1610FA1E200075008D8EEA /* ViewController.swift in Sources */,
+				ADF18D701E296A17003FE1D5 /* CarTimePriority.swift in Sources */,
+				ADF18D781E297197003FE1D5 /* CarTimePriorityTableViewCell.swift in Sources */,
+				AD39644D1E2877B300C3EF76 /* RoadDayTimePriorityViewController.swift in Sources */,
+				AD1610F81E200075008D8EEA /* AppDelegate.swift in Sources */,
+				ADF18D851E2AB680003FE1D5 /* RoadDayTimePriorityTableViewCell.swift in Sources */,
+				ADF18D761E296EE6003FE1D5 /* RoadNumberCarsPriority.swift in Sources */,
+				ADF18D811E2A8883003FE1D5 /* PathDayTimePriorityTableViewCell.swift in Sources */,
+				AD3964531E28893700C3EF76 /* PathDayTimePriorityViewController.swift in Sources */,
+				ADF18D891E2AFF84003FE1D5 /* RoadNumberofCarsPriorityTableViewCell.swift in Sources */,
+				ADF18D741E296E23003FE1D5 /* RoadDayTimePriority.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1611041E200075008D8EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD16110D1E200075008D8EEA /* PriorityDeclarationPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD16110A1E200075008D8EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD1610F31E200075008D8EEA /* PriorityDeclarationPrototype */;
+			targetProxy = AD1611091E200075008D8EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD1610FB1E200075008D8EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1610FC1E200075008D8EEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD1611001E200075008D8EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD1611011E200075008D8EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD16110F1E200075008D8EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD1611101E200075008D8EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1611121E200075008D8EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4EB9PK9EU;
+				INFOPLIST_FILE = PriorityDeclarationPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PriorityDeclarationPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD1611131E200075008D8EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H4EB9PK9EU;
+				INFOPLIST_FILE = PriorityDeclarationPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PriorityDeclarationPrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD1611151E200075008D8EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4EB9PK9EU;
+				INFOPLIST_FILE = PriorityDeclarationPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PriorityDeclarationPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriorityDeclarationPrototype.app/PriorityDeclarationPrototype";
+			};
+			name = Debug;
+		};
+		AD1611161E200075008D8EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H4EB9PK9EU;
+				INFOPLIST_FILE = PriorityDeclarationPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PriorityDeclarationPrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriorityDeclarationPrototype.app/PriorityDeclarationPrototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD1610EF1E200075008D8EEA /* Build configuration list for PBXProject "PriorityDeclarationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD16110F1E200075008D8EEA /* Debug */,
+				AD1611101E200075008D8EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1611111E200075008D8EEA /* Build configuration list for PBXNativeTarget "PriorityDeclarationPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1611121E200075008D8EEA /* Debug */,
+				AD1611131E200075008D8EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD1611141E200075008D8EEA /* Build configuration list for PBXNativeTarget "PriorityDeclarationPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1611151E200075008D8EEA /* Debug */,
+				AD1611161E200075008D8EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD1610EC1E200075008D8EEA /* Project object */;
+}
